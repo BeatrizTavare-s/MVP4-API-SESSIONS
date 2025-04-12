@@ -36,6 +36,9 @@ Esta é uma **API Secundária 02** ao projeto [Study Content](https://github.com
    ```
    PORT=3001
    DATABASE_URL=postgres://usuario:senha@localhost:5432/study_sessions
+   POSTGRES_USER=value
+   POSTGRES_PASSWORD=value
+   POSTGRES_DB=value
    ```
 
 3. Execute em ambiente de desenvolvimento:
@@ -45,18 +48,26 @@ Esta é uma **API Secundária 02** ao projeto [Study Content](https://github.com
 
 4. Para build de produção:
    ```bash
-   npm run build
-   node dist/server.js
+   npm run start
    ```
 
 ---
 
 ## 🐳 Como rodar com Docker
 
-1. Acesse a pasta com backend principal:
+1. Configure o arquivo `.env`:
+   ```
+   PORT=3001
+   DATABASE_URL=postgres://usuario:senha@localhost:5432/study_sessions
+   POSTGRES_USER=value
+   POSTGRES_PASSWORD=value
+   POSTGRES_DB=value
+   ```
+
+2. Acesse a pasta com backend principal:
 [Study Content](https://github.com/BeatrizTavare-s/MVP4-backend)
 
-2. Execute o comando para build:
+3. Execute o comando para build:
 ```bash
 docker compose up --build
 ```
