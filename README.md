@@ -54,7 +54,7 @@ Esta é uma **API complementar** ao projeto [Study Content](https://github.com/B
 ## 🐳 Como rodar com Docker
 
 1. Acesse a pasta com backend principal:
-[Study Content](https://github.com/seu-usuario/study-content-api)
+[Study Content](https://github.com/BeatrizTavare-s/MVP4-backend)
 
 2. Execute o comando para build:
 ```bash
