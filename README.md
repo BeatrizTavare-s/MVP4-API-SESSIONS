@@ -1,7 +1,7 @@
 
 # 🗂️ Sessions API - Módulo do Projeto Study Content
 
-Esta é uma **API complementar** ao projeto [Study Content](https://github.com/BeatrizTavare-s/MVP4-backend/tree/main), desenvolvida em **Node.js + Express**, com banco de dados **PostgreSQL**. Essa API é responsável por **gerenciar sessões de estudo**.
+Esta é uma **API complementar** ao projeto [Study Content](https://github.com/BeatrizTavare-s/MVP4-backend), desenvolvida em **Node.js + Express**, com banco de dados **PostgreSQL**. Essa API é responsável por **gerenciar sessões de estudo**.
 
 > 🔗 Esta API é consumida pelo frontend e faz parte da arquitetura completa do projeto.
 
